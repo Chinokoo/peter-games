@@ -1,11 +1,17 @@
 import { HStack, Image, Text } from "@chakra-ui/react";
 import gamify from "../assets/logo.webp";
+import ColorModeSwitch from "./ColorModeSwitch";
 
 const NavBar = () => {
   return (
-    <HStack>
-      <Image src={gamify} boxSize="60px"></Image>
-      <Text>NavBar</Text>
+    <HStack justifyContent="space-between" padding="10px">
+      <HStack>
+        <Image src={gamify} boxSize="60px" />
+        <Text fontSize="4xl" as="b">
+          Peter Games
+        </Text>
+      </HStack>
+      <ColorModeSwitch />
     </HStack>
   );
 };
