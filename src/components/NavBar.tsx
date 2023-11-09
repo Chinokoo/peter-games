@@ -7,7 +7,7 @@ const NavBar = () => {
     <HStack justifyContent="space-between" padding="10px">
       <HStack>
         <Image src={gamify} boxSize="60px" />
-        <Text fontSize="4xl" as="b">
+        <Text fontSize={{ sm: "1xl", md: "2xl", lg: "4xl" }} as="b">
           Peter Games
         </Text>
       </HStack>
