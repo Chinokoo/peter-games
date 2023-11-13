@@ -27,7 +27,7 @@ const PlatformSelector = ({ onSelectPlatform, selectedPlatform }: Props) => {
               }
               key={platform.id}
             >
-              <Button variant="link">{platform.name}</Button>
+              {platform.name}
             </MenuItem>
           ))}
         </MenuList>
