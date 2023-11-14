@@ -5,7 +5,7 @@ interface Props {
   gameQuery: GameQuery;
 }
 
-const peter = "Peter ";
+const peter = "Peter, ";
 const game = " Games";
 const GameHeading = ({ gameQuery }: Props) => {
   const heading =
